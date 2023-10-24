@@ -1,5 +1,5 @@
-exports.create = (req, res) => {
-    res.send({ message: "create handler"});
+exports.create = async (req, res, next) => {
+    if (!)
 };
 
 exports.findAll = (req, res) => {
